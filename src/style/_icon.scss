@@ -1,0 +1,14 @@
+.icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 400px) {
+    .icon {
+    width: 20px;
+    height: 20px;
+    }
+}

@@ -1,0 +1,147 @@
+.header {
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: $dark-grey;
+    padding: 13px 30px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid $dark-grey;
+}
+
+.header__navigation-icon {
+    background: url('../static/svg/trello-mark-blue.svg');
+    width: 24px;
+    height: 24px;
+}
+
+.header__left-element{
+    display: flex;
+    align-items: center;
+}
+
+.header__right-element{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header__logo {
+    background: url('../static/svg/Logo.svg') no-repeat center;
+    width: 76px;
+    height: 30px;
+    border-right: 1px solid $dark-grey;
+    padding-right: 22px;
+    box-sizing: content-box;
+}
+
+.header__search {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: $grey;
+    border-radius: 10px;
+    height: 30px;
+    width: 512px;
+    align-items: center;
+}
+
+.header__input-search {
+    width: 470px;
+    height: 27px;
+    opacity: 0;
+    border: none;
+}
+
+.header__search-icon {
+    background: url('../static/svg/search-outline.svg')
+}
+
+.header__action {
+    display: flex;
+}
+
+.header__add-board {
+    background: url('../static/svg/plus-circle-outline.svg');
+}
+
+.header__information {
+    background: url('../static/svg/alert-circle-outline.svg');
+}
+
+.header__notification {
+    background: url('../static/svg/bell-outline.svg');
+}
+
+.header__user-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.header__item {
+    padding-right: 22px;
+    margin-right: 22px;
+}
+
+.header__action-item{
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 450px) {
+    .header__logo {
+        display: none;
+    }
+
+    .header__navigation-text {
+        display: none;
+    }
+
+    .header__navigation {
+        border: none;
+    }
+
+    .header__input-search {
+        display: none;
+    }
+
+    .header__search {
+        width: 20px;
+        background: none;
+        opacity: $text-opacity;
+    }
+
+    .header__left-element {
+        justify-content: flex-start;
+    }
+
+    .header__user-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header__action-item{
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+
+    .header {
+        padding: 7px 16px;
+        margin-bottom: 31px;
+    }
+
+    .header__item {
+        margin-right: 7px;
+        padding: 0px;
+    }
+    .board-list__item-description {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}

@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'colors';
+@import 'header';
+@import 'icon';
+@import 'boards';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
