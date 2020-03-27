@@ -3,6 +3,11 @@
     flex-direction: column;
 }
 
+.board-list__link {
+    text-decoration: none;
+    color: black;
+}
+
 .board-list {
     margin-top: 35px;
 }
@@ -66,8 +71,8 @@
 
 .board-list__arrow-icon {
     background: url('../static/svg/arrow-forward-outline.svg') no-repeat center;
-    width: 20px;
-    height: 20px;
+    width: $width-icon;
+    height: $height-icon;
 }
 
 
@@ -163,8 +168,6 @@
         height: 130px;
         margin: 9px 0px 0px 14px;
     }
-
-    // .board-list__items::-webkit-scrollbar { width: 0; }
 
     .board-list__footer {
         margin-top: 18px;

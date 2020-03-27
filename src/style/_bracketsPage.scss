@@ -1,0 +1,171 @@
+.brackets-container {
+    display: flex;
+    flex-direction: row;  
+    margin: 15px 0px 0px 30px;
+    overflow-x: auto;  
+}
+
+.brackets-board__list-name {
+    display: flex;
+}
+
+.brackets-board__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.brackets-board__more {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.brackets-board__more-icon {
+    background: url('../static/svg/combinedShape.svg') no-repeat center;
+    height: 6px;
+    width: 32px;
+}
+
+.brackets-board__name {
+    font-family: $main-font;
+    font-size: $board-item-header-size;
+}
+
+.brackets-board__list-item {
+    margin-right: 30px;
+    background-color: $grey;
+    max-width: 362px;
+    min-width: 362px;
+    border-radius: 13px;
+    padding: 14px 20px 12px 20px;
+    margin-bottom: 10px;
+}
+
+.brackets-board__users {
+    display: flex;
+}
+
+.brackets-board__item-heading {
+    font-family: $main-font;
+    font-size: $board-item-header-size;
+}
+
+.brackets-board__add-users {
+    background: black;
+    border-radius: 50px;
+}
+
+.brackets-board__add-icon {
+    background: url('../static/svg/+.svg') no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+
+.brackets-board__footer-message {
+    background: url('../static/svg/message-square-outline.svg') no-repeat center;
+    width: $width-icon;
+    height: $height-icon;
+}
+
+.brackets-board__footer-like {
+    background: url('../static/svg/heart-outline.svg') no-repeat center;
+    width: $width-icon;
+    height: $height-icon;
+}
+
+.brackets-board__footer-pin {
+    background: url('../static/svg/attach-outline.svg') no-repeat center;
+    width: $width-icon;
+    height: $height-icon;
+}
+
+.brackets-board__footer-actions {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.brackets-board__footer-action {
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+}
+
+.brackets-board__action-quantity {
+    font-size: $paragraph-size;
+    opacity: $icon-opacity;
+}
+
+.brackets-board__footer {
+    display: flex;
+    margin-top: 26px;
+}
+
+.brackets-board__item-line {
+    height: $line-height;
+    width: $line-width;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.brackets-board__yellow-line {
+    background: $yellow-line;
+}
+
+.brackets-board__item-lines {
+    display: flex;
+    margin-bottom: 9px;
+}
+
+.brackets-board__item-description {
+    font-family: $main-font;
+    font-size: 13px;
+    opacity: $text-opacity;
+    display: flex;
+}
+
+.brackets-board__blu-line {
+    background: $blue-line;
+}
+
+.brackets-board__red-line {
+    background: $red-line;
+}
+
+.brackets-board__purple-line {
+    background: $purple-line;
+}
+
+.brackets-board__green-line {
+    background: $green-line;
+}
+
+.brackets-board__sky-line {
+    background: $sky-line;
+}
+
+.brackets-board__dark-red-line {
+    background: $dark-red-line;
+}
+
+.brackets-board__photo {
+    width: $width-photo;
+    height: $height-photo;
+    margin-bottom: 16px;
+}
+
+.brackets-board__new-card {
+    border: 2px dashed $grey;
+    width: 362px;
+    height: 160px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brackets-board__add-card {
+    font-family: $main-font; 
+}
