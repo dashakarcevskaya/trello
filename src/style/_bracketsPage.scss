@@ -169,3 +169,85 @@
 .brackets-board__add-card {
     font-family: $main-font; 
 }
+
+.container-navigation {
+    display: flex;
+    margin: 30px 0px 15px 0px;
+}
+
+.container-navigation__right-part {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container-navigation__heart-icon {
+    background: url('../static/svg/Heart.svg') no-repeat center;
+}
+
+.container-navigation__shape-icon {
+    background: url('../static/svg/globe-2-outline.svg');
+}
+
+.container-navigation__hard-icon {
+    background: url('../static/svg/Hard.svg');
+}
+
+.container-navigation__left-part {
+    display: flex;
+    align-items: center;
+}
+
+.container-navigation__icon {
+    width: 19px;
+    height: 19px;    
+    margin-right: 10px;
+}
+
+.container-navigation__action {
+    display: flex;
+    align-items: center;
+}
+
+.container-name {
+    font-size: $board-list-header-size;
+    font-family: $main-font;
+    margin-left: 30px;
+    margin-right: 90px;
+}
+.container-navigation__shape {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+    // padding: 0px 10px 0px 10px;   
+}
+
+.container-navigation__shape-text {
+    font-size: 18px;
+    font-family: $main-font;
+    opacity: $icon-opacity;
+}
+
+.container-navigation__border {
+    width: 1px;
+    height: 35px;
+    background-color: $dark-grey;
+    opacity: $icon-opacity;
+    margin-right: 10px;
+}
+
+.container-navigation__users {
+    display: flex;
+    margin-right: 113px;
+}
+
+.container-navigation__user-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: -20px;
+}
+
+.container-navigation__menu-item {
+    
+}
