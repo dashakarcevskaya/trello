@@ -54,8 +54,9 @@
 .header__input-search {
     width: 470px;
     height: 27px;
-    opacity: 0;
+    background: transparent;
     border: none;
+    outline: none;
 }
 
 .header__search-icon {
