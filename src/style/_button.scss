@@ -1,0 +1,12 @@
+.header-button {
+    border: 0px;
+    background: none; 
+    outline: none;
+    cursor: pointer               
+}
+
+.header-button:hover:not(.board-card__arrow) {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);              
+}

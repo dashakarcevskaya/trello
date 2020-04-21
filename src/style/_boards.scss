@@ -1,3 +1,7 @@
+@import 'icon';
+@import 'variables';
+@import 'colors';
+
 .board-list-container {
     display: flex;
     flex-direction: column;
@@ -19,7 +23,7 @@
     padding-bottom: 20px;
 }
 
-.board-list__item {
+.board-card {
     display: flex;
     border-radius: 13px;
     flex-direction: column;
@@ -30,53 +34,52 @@
     max-width: 362px;
 }
 
+.board-card:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .board-list__name {
     font-size: $board-list-header-size;
     font-family: $main-font;
     margin-left: 30px;
 }
 
-.board-list__item-name {
+.board-card__name {
     font-family: $main-font;
     font-size: $board-item-header-size;
 }
 
-.board-list__item-description {
+.board-card__description {
     font-family: $main-font;
     font-size: $paragraph-size;
     opacity: $text-opacity;
 }
 
-.board-list__footer {
+.board-card__footer {
     display: flex;
     margin-top: 27px;
 }
 
-.board-list__users {
+.board-card_users-group {
     display: flex;
 }
 
-.board-list__user {
+.board-card__user-item {
     width: 30px;
     height: 30px;
     margin-right: -13px;
 }
 
-.board-list__arrow {
+.board-card__arrow {
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
     align-items: center;
 }
 
-.board-list__arrow-icon {
-    background: url('../static/svg/arrow-forward-outline.svg') no-repeat center;
-    width: $width-icon;
-    height: $height-icon;
-}
-
-
-.users-group {
+.board-card__user-item{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +87,7 @@
     border-radius: 50%;
 }
 
-.users-group__quantity {
+.board-card__users-quantity {
     color: white;
     font-size: 9px;
     font-family: $main-font;
@@ -103,32 +106,60 @@
     font-size: $board-item-header-size;
 }
 
-.list-element_grey {
+.board-card__grey {
     background: $grey;
 }
 
-.list-element_sky {
+.board-card__grey:hover {
+    background: #E4E0E0;
+}
+
+.board-card__sky {
     background: $sky;
 }
 
-.list-element_pink {
+.board-card__sky:hover {
+    background: #D0E5EE;
+}
+
+.board-card__pink {
     background: $pink;
 }
 
-.list-element_yellow {
+.board-card__pink:hover {
+    background: #EBE0F5;
+}
+
+.board-card__yellow {
     background: $light-yellow;
 }
 
-.list-element_green {
-    background-color: $light-green;
+.board-card__yellow:hover {
+    background: #F5E4D1;
 }
 
-.list-element_purple {
+.board-card__green {
+    background: $light-green;
+}
+
+.board-card__green:hover {
+    background: #DAF7EA;
+}
+
+.board-card__purple {
     background: $purple;
 }
 
-.list-element_peach {
+.board-card__purple:hover {
+    background: #E4E4F7;
+}
+
+.board-card__peach {
     background: $peach;
+}
+
+.board-card__peach:hover {
+    background: #F0D5D5;
 }
 
 .board-list__menu {
@@ -153,15 +184,15 @@
         margin-left: 16px;
     }
 
-    .board-list__item-name {
+    .board-card__name {
         font-size: $board-item-header-size-mobile;
     }
 
-    .board-list__item-description {
+    .board-card__description {
         font-size: $paragraph-size-mobile ;
     }
 
-    .board-list__item {
+    .board-card {
         max-width: 220px;
         min-width: 220px;
         padding: 16px;
@@ -169,11 +200,11 @@
         margin: 9px 0px 0px 14px;
     }
 
-    .board-list__footer {
+    .board-card__footer {
         margin-top: 18px;
     }
 
-    .board-list__user {
+    .board-card__user-item {
         height: 24px;
         width: 24px;
     }

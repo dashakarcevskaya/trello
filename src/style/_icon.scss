@@ -4,6 +4,18 @@
     width: 24px;
     height: 24px;
     display: inline-block;
+
+    &-navigation {
+        background-image: url('../static/svg/trello-mark-blue.svg');
+    }
+
+    &-search {
+        background-image: url('../static/svg/search.svg');
+    }
+
+    &-arrow {
+        background-image: url('../static/svg/arrow-forward-outline.svg');
+    }
 }
 
 @media screen and (max-width: 400px) {
