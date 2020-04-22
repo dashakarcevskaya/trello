@@ -80,7 +80,7 @@
 }
 
 .brackets-board__footer-pin {
-    background: url('../static/svg/attach-outline.svg') no-repeat center;
+    background: url('../static/svg/attach-icon.svg') no-repeat center;
     width: $width-icon;
     height: $height-icon;
 }
@@ -127,7 +127,7 @@
 .brackets-board__item-description {
     font-family: $main-font;
     font-size: 13px;
-    opacity: $text-opacity;
+    // opacity: $text-opacity;
     display: flex;
 }
 

@@ -34,12 +34,6 @@
     max-width: 362px;
 }
 
-.board-card:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
 .board-list__name {
     font-size: $board-list-header-size;
     font-family: $main-font;
@@ -54,7 +48,7 @@
 .board-card__description {
     font-family: $main-font;
     font-size: $paragraph-size;
-    opacity: $text-opacity;
+    color: $text-colour;
 }
 
 .board-card__footer {

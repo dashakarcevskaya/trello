@@ -6,15 +6,15 @@
     display: inline-block;
 
     &-navigation {
-        background-image: url('../static/svg/trello-mark-blue.svg');
+        background-image: url('../static/svg/navigation-icon.svg');
     }
 
     &-search {
-        background-image: url('../static/svg/search.svg');
+        background-image: url('../static/svg/search-icon.svg');
     }
 
     &-arrow {
-        background-image: url('../static/svg/arrow-forward-outline.svg');
+        background-image: url('../static/svg/arrow-icon.svg');
     }
 }
 
